@@ -1,0 +1,70 @@
+<html lang="en"><head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Contact</title>
+  <!-- 3. Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  
+  <!-- 2. bootswatch -->
+	<link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css">
+  </head>
+  
+  <body>
+  <!-- 4.   -->
+	<div class="container mt-4">
+  <!-- 5. h1.container.mt-4 span.text-primary     -->
+	  <h1 class="display-4 text-center">
+  <!-- 6. i.fas fa-book-open text-primary: fontawesome icon       -->
+		<i class="fas text-primary"></i> Co<span class="text-primary">nt</span>act</h1>
+  <!-- 7. add form and inputs     -->
+	  <form id="book-form">
+		<div class="form-group">
+			<label for="name">Name</label>
+			<input type="text" id="name" class="form-control">
+		</div>
+		<div class="form-group">
+			<label for="gender">Gender</label>
+			<input type="text" id="gender" class="form-control">
+		  </div>
+		<div class="form-group">
+		  <label for="email">Email</label>
+		  <input type="text" id="email" class="form-control">
+		</div>
+		<div class="form-group">
+			<label for="subject">Subject</label>
+			<input type="text" id="subject" class="form-control">
+		</div>
+		<div class="form-group">
+		  <label for="massage">Massage</label>
+		  <input type="text" id="massage" class="form-control">
+		</div>
+		<div class="form-group">
+			<label for="phone">Phone</label>
+			<input type="text" id="phone" class="form-control">
+		</div>
+		<input type="submit" value="Submit" class="btn btn-primary btn-block">
+	  </form>
+  <!-- 8. table for output     -->
+	  <table class="table table-striped mt-5">
+		<thead>
+		  <tr>
+			<th>Name</th>
+			<th>Gender</th>
+			<th>Email</th>
+			<th>Subject</th>
+			<th>Massage</th>
+			<th>Phone</th>
+			<th></th>
+		  </tr>
+		</thead>
+  <!-- 9. add placeholder to insert list of book       -->
+		<tbody id="book-list"></tbody>
+	  </table>
+	</div>
+  
+	<script src="main.js"></script>
+  
+  
+  
+  </body></html>
